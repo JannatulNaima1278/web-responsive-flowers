@@ -293,7 +293,32 @@ nav{
     width: 70%;
 }
 
+/* footer section styles */
 
+.footer-list ul{
+    list-style: none;
+}
+
+.footer-list ul li{
+    margin-bottom: 25px;
+}
+
+.footer-logos img{
+    margin-right: 20px;
+}
+
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.footer-color{
+    color: rgba(107, 114, 128, 1);
+}
 
 /* Responsive small device */
 
@@ -386,6 +411,12 @@ nav{
 
     .join-form button{
         padding: 8px 20px;
+    }
+
+    footer{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
     }
 }
 
